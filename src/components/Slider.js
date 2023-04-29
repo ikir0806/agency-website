@@ -23,24 +23,25 @@ export default function Slider() {
         direction={'vertical'}
         className='mySwiper'
         loop={true}
+        freeMode={true}
         mousewheel={true}>
         <SwiperSlide>
-          <p className='text'>people</p>
+          <p className='link'>people</p>
         </SwiperSlide>
         <SwiperSlide>
-          <p className='text'>cases</p>
+          <p className='link'>cases</p>
         </SwiperSlide>
         <SwiperSlide>
-          <p className='text'>personal brand</p>
+          <p className='link'>personal brand</p>
         </SwiperSlide>
         <SwiperSlide>
-          <p className='text'>people</p>
+          <p className='link'>people</p>
         </SwiperSlide>
         <SwiperSlide>
-          <p className='text'>cases</p>
+          <p className='link'>cases</p>
         </SwiperSlide>
         <SwiperSlide>
-          <p className='text'>personal brand</p>
+          <p className='link'>personal brand</p>
         </SwiperSlide>
       </Swiper>
     </>
